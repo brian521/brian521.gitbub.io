@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MSC</title>
+    <link href="main_style.css" rel="stylesheet" type="text/css">
+    <style>
+        h6{
+            font-size: 27px;
+        }
+        body{
+            background-color: #F0E9E2;
+        }
+        h2{
+            font-size: 20px;
+        }
+        .logo{
+            text-align: center;
+            font-family: "Trebuchet MS", Dotum, Arial;
+            font-size: 50px;
+        }
+        .logo_a{
+            text-decoration-line: none;
+        }
+        .logo_a:link{
+            color: #313840;
+        }
+        .logo_a:visited{
+            color: #313840;
+        }
+        .logo_name{
+            margin: 0px;
+        }
+        .Seoul{
+            height: 700px;
+            width: auto;
+            text-align: center;
+            pointer-events: all;
+            background-image: url(Seoul.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            font-weight:700;
+            font-family: "KOPUBWORLD돋움체";
+        }
+        .Seoul a{
+            text-decoration: none;
+        }
+        .Seoul a:link{
+            color: #313840;
+        }
+        .Seoul a:visited{
+            color: #313840;
+        }
+        .notice{
+            text-align: center;
+            font-weight:700;
+            font-family: "KOPUBWORLD돋움체";
+            margin: 0px;
+        }
+        #menu{
+            background-color: #976A59;
+        }
+        
+        #menu ul{
+            margin: 10px;
+            padding: 0;
+            width: 100%;
+        }
+        #menu ul li{
+            list-style: none;
+            list-style-type: none;
+            padding: 0px 0px;
+            background-color: #976A59;
+            line-height: 40px;
+            vertical-align: middle;
+            text-align: center;
+            display: inline-block;
+        }
+        #menu .menuLink{
+            text-decoration: none;
+            color: #F0E9E2;
+            display: block;
+            width: 625px;
+            font-size: 22px;
+            font-weight:600;
+            font-family: "KOPUBWORLD돋움체";
+            
+        }
+        #menu .menuLink:hover{
+            color: #F0E9E2;
+            background-color: #9AAFA2;
+        }
+        #table_dis{
+            margin-top: 20px;
+            font-family: "KOPUBWORLD돋움체";
+            text-align: center;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 20px;
+        }
+        #table_dis caption{
+            font-size: 25px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+    <a href="main.html" class="logo_a">
+    <h1 class="logo_name">MSC</h1>
+    <h6 class="logo_name">My Seoul Covid</h6>
+     </a>
+      </div>
+    <nav id="menu">
+    <ul>
+        <li><a href="main.html" class="menuLink">서울</a></li>
+        <li><a href="location.html" class="menuLink">주변 지역</a></li>
+        <li><a href="distance.html" class="menuLink">거리두기</a></li>
+    </ul>    
+      </nav>
+    </header>
+<br>
+<table border="1" id="table_dis"> 
+	<caption>현재 거리두기: 단계적 일상회복(위드 코로나)</caption>
+	<thead>
+		<tr><th>구분</th><th>위드 코로나</th><th>4단계</th><th>3단계</th><th>2단계</th><th>1단계</th></tr>
+	</thead>
+	<tbody>
+		<tr><td>사적 모임</td><td>제한 없음</td><td colspan="2">5인 이상 금지</td><td>9인 이상 금지</td><td>제한 없음</td></tr>
+		<tr><td>외출</td><td>제한 없음</td><td>외출 자제</td><td>22시 이후 외출 자제</td><td>실외 시설 이용 권장</td><td>제한 없음</td></tr>
+		<tr><td>행사</td><td>제한 없음</td><td>행사 금지</td><td rowspan ="2">50인 이상 집회 금지</td><td rowspan="2">100인 이상 집회 금지</td><td>500인 이상 사전 신고</td></tr>
+		<tr><td>집회</td><td>제한 없음</td><td>1인 시위 외 금지</td><td>500인 이상 집회 금지</td></tr>
+        <tr><td>시험</td><td>제한 없음</td><td colspan="4">수험생 간 1.5m 이상 거리두기 유지하도록 좌석 배치, 시험종사자 및 응시자 외 시험장 출입 통제</td></tr>
+	</tbody>
+</table>
+</body>
+</html>
